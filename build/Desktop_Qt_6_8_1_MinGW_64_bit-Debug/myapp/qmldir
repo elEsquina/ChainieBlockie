@@ -1,0 +1,6 @@
+module myapp
+typeinfo appmyapp.qmltypes
+prefer :/qt/qml/myapp/
+Main 1.0 qml/Main.qml
+Tab1 1.0 qml/Tab1.qml
+

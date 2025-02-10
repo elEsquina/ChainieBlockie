@@ -1,0 +1,51 @@
+@startuml
+'-------------------------
+' Interfaces
+'-------------------------
+interface IHasher {
+  + generateHash(data: string): string
+}
+
+'-----------------
+' Core Components
+'-----------------
+class Block {
+  - index: int
+  - timestamp: string
+  - data: string
+  - previousHash: string
+  - hash: string
+  - nonce: int
+  + calculateHash(hasher: IHasher): void
+  + mineBlock(hasher: IHasher, difficulty: int): void
+}
+
+class Blockchain {
+  - chain: vector<Block>
+  - difficulty: int
+  + addBlock(data: string, hasher: IHasher): void
+  + validateChain(): bool
+  + getChain(): vector<Block>
+}
+
+class SHA256Hasher implements IHasher {
+  + generateHash(data: string): string
+}
+
+'-------------------
+' File Handling
+'-------------------
+class BlockchainIO {
+  + static exportToFile(blockchain: Blockchain, filename: string): void
+  + static importFromFile(filename: string, difficulty: int): Blockchain
+}
+
+'-------------------
+' Relationships
+'-------------------
+Block --> IHasher : depends
+Blockchain --> Block : contains
+Blockchain --> IHasher : uses
+BlockchainIO --> Blockchain : operates on
+SHA256Hasher ..> IHasher : implements
+@enduml

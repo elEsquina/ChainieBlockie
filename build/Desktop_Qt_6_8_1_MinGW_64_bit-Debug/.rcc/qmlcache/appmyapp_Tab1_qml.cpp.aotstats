@@ -1,0 +1,20 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 27,
+                        "durationMicroseconds": 306,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 7
+                    }
+                ],
+                "filepath": "C:/Qt/myprojects/myapp/Tab1.qml"
+            }
+        ],
+        "moduleId": "myapp(appmyapp)"
+    }
+]
