@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="/qt/qml/myapp/">
+    <file alias="qml/Main.qml">C:/Qt/myprojects/myapp/qml/Main.qml</file>
+    <file alias="qml/Tab1.qml">C:/Qt/myprojects/myapp/qml/Tab1.qml</file>
+    <file alias="assets/logo.png">C:/Qt/myprojects/myapp/assets/logo.png</file>
+  </qresource>
+</RCC>
+

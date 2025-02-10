@@ -1,4 +1,4 @@
-#include "SHA256Hasher.h"
+#include "include/SHA256Hasher.h"
 
 std::string SHA256Hasher::generateHash(const std::string& data) {
     unsigned char hash[SHA256_DIGEST_LENGTH];

@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/MyCompany/MyApp">
+    <file alias="qmldir">C:/Qt/myprojects/myapp/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/qmldir</file>
+  </qresource>
+</RCC>
+

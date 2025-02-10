@@ -1,0 +1,13 @@
+--bare
+-I
+C:/Qt/myprojects/myapp/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug
+-I
+C:/Qt/6.8.1/mingw_64/qml
+--resource
+C:/Qt/myprojects/myapp/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/.qt/rcc/qmake_myapp.qrc
+--resource
+C:/Qt/myprojects/myapp/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/.qt/rcc/appmyapp_raw_qml_0.qrc
+--resource
+C:/Qt/myprojects/myapp/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/.qt/rcc/appmyapp_raw_qml_0_extra_qmldirs.qrc
+C:/Qt/myprojects/myapp/qml/Main.qml
+C:/Qt/myprojects/myapp/qml/Tab1.qml
