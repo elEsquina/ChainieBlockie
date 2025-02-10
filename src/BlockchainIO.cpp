@@ -1,4 +1,5 @@
 #include "include/BlockchainIO.h"
+#include "include/SHA256Hasher.h"
 #include <fstream>
 #include <iostream>
 #include <nlohmann/json.hpp>
